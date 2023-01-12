@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 const Desktop = _ => {
     return (
         <>
-            <div>
+            <div className='show-container'>
                 <Link to="/ReferEarnDesktop1">
-                    <button>Desktop 1</button>
+                    <button className='show-button'>Desktop 1</button>
                 </Link>
                 <Link to="/ReferEarnDesktop2">
-                    <button>Desktop 2</button>
+                    <button className='show-button'>Desktop 2</button>
                 </Link>
             </div>
         </>

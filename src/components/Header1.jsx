@@ -1,4 +1,5 @@
-const Header = _ => {
+import '../styled/header1.css';
+const Header1 = _ => {
     return (
         <>
             <div className="header_container">
@@ -14,4 +15,4 @@ const Header = _ => {
     )
 }
 
-export default Header;
+export default Header1;

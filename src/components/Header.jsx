@@ -1,3 +1,4 @@
+import '../styled/header.css';
 const Header = _ => {
     return (
         <>

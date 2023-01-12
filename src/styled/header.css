@@ -1,0 +1,36 @@
+/* Header Section */
+
+.header_container {
+    height: 73px;
+    display: block;
+    /* z-index: 1000; */
+  }
+  
+  .header_wrapper {
+    height: 100%;
+  }
+  
+  .header_section {
+    height: 100%;  
+    margin-left: 14.2%;
+    display: flex;
+    align-items: center;
+    font-size: var(--size_light);
+    font-weight: 400;
+  }
+  
+  /* Header Section */
+
+  /* responsive */
+  
+  @media screen and (max-width: 485px) {
+    .header_section {
+      margin-left: 8%;
+    }
+  }
+  
+  @media screen and (max-width: 370px) {
+    .header_section {
+      margin-left: 4%;
+    }
+  }
